@@ -1,1 +1,6 @@
 # default config
+url: "https://freelance-housing.onrender.com"
+users: 10
+rps: 5
+duration: 30
+report: "./reports/"
