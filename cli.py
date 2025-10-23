@@ -5,8 +5,8 @@ import yaml
 
 app = typer.Typer()
 
-def load_config():
-    with open("config/default.yaml","r") as f:
+def load_config(config_file):
+    with open(f"config/{config_file}.yaml","r") as f:
         return yaml.safe_load(f)
 @app.command()
 def run(
@@ -14,9 +14,10 @@ def run(
         users : int = None,
         rps : int = None,
         duration : int = None,
-        report : str = None
+        report : str = None,
+        config: str = "default"
 ):
-    config = load_config()
+    config = load_config(config)
     final_config = {
         "url" : url or config["url"],
         "users" : users or config["users"],
