@@ -5,4 +5,7 @@
     <orderEntry type="jdk" jdkName="Python 3.12 (cpptojson)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="C:\Development\SDET Intern Practice\PerfProbe\requirements.txt" />
+  </component>
 </module>
