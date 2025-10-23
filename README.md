@@ -1,4 +1,4 @@
-# PerfProbe
+# PerfProbe - Distributed Performance & Stress Analyzer
 Project Objective:
 
 1. Design and implement a modular performance analysis framework that can:
